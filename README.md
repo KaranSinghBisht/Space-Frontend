@@ -1,10 +1,15 @@
 # Space-Frontend
-Frontend for a forums based website
+Frontend for a forum based website
 
-This will be Forums based Site where people can post their Story and like have a place to share their thoughts
-and opinions.
+This is a  Forums based Site where users can post their Story and have a place to share their thoughts
+and opinions to a larger audience.
 
-This repository focuses only on the front end part.
+This repository uses only frontend and not the backend.
+
+## Tools and Technologies
+1. React
+2. HTML5
+3. CSS3
 
 ## If you are here for Hacktoberfest, don't forget to checkout our CONTRIBUTING file
 
