@@ -5,3 +5,9 @@ This will be Forums based Site where people can post their Story and like have a
 and opinions.
 
 This repository focuses only on the front end part.
+
+## If you are here for Hacktoberfest, don't forget to checkout our CONTRIBUTING file
+
+[English Version](./CONTRIBUTING.md)
+
+[Spanish Version](./CONTRIBUTING.es.md)
