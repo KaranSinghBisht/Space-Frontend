@@ -19,7 +19,7 @@ const Navs = props =>{
     return (
       <div className='nav-box'>
         <Navbar className="justify-content-end">
-          <Navbar.Brand className="logo" href="#home">Logo</Navbar.Brand>
+          <Navbar.Brand className="logo" href="#home">Logos</Navbar.Brand>
           {nav}
         </Navbar>
       </div>
