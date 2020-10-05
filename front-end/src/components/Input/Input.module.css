@@ -1,0 +1,6 @@
+.container {
+    padding: 5px 10px;
+    font-size: 14px;
+    color: var(--text-color-dark);
+    border: none;
+}

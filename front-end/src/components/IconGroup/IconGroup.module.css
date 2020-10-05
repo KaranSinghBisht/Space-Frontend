@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+}
+
+.container > * {
+    padding: 0 5px;
+}
+
+.container:last-child,
+.container:first-child {
+    padding: 0;
+}
