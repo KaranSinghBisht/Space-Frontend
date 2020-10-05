@@ -2,7 +2,7 @@ import React, { useCallback, useState } from 'react'
 
 import styles from './Input.module.css'
 
-export const Input = ({ defaultValue, placeholder, onChange }) => {
+export const Input = ({ defaultValue, placeholder, onChange, name }) => {
   const [value, setValue] = useState(defaultValue)
   const handleChange = useCallback(
     (e) => {
@@ -19,6 +19,7 @@ export const Input = ({ defaultValue, placeholder, onChange }) => {
     <input
       className={styles.container}
       type="text"
+      name={name}
       onChange={handleChange}
       placeholder={placeholder}
       value={value}
