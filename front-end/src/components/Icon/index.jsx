@@ -1,7 +1,19 @@
-import * as React from 'react'
+import React from 'react'
+
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faGithub, faFacebook } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import styles from './Icon.module.css'
 
-export const Icon = () => {
-  return <div className={styles.container}>ICON</div>
+library.add(faGithub, faFacebook)
+
+export const Icon = ({ icon }) => {
+  return (
+    <FontAwesomeIcon
+      size="lg"
+      className={styles.container}
+      icon={['fab', icon]}
+    />
+  )
 }
