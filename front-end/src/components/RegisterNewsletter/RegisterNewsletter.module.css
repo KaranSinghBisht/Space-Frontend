@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+}
+
+.container > * {
+    margin: 0 5px;
+}
+
+.container > :first-child {
+    margin-left: 0;
+}
+
+.container > :last-child {
+    margin-right: 0;
+}
