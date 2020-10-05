@@ -2,8 +2,8 @@ import React, { useCallback, useState } from 'react'
 
 import styles from './Input.module.css'
 
-export const Input = ({ defaultValue, placeholder, onChange, name }) => {
-  const [value, setValue] = useState(defaultValue)
+export const Input = ({ defaultValue = '', placeholder, onChange, name }) => {
+  const [value, setValue] = useState()
   const handleChange = useCallback(
     (e) => {
       if (onChange) {
