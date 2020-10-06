@@ -1,0 +1,10 @@
+.listContainer {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.listContainer li {
+    margin: 0 20px;
+}

@@ -1,0 +1,11 @@
+.container,
+.container:-webkit-any-link {
+    color: var(--white);
+    transition: color .5s;
+    text-decoration: none;
+}
+
+.container:hover,
+.active:-webkit-any-link {
+    color: var(--brand);
+}
