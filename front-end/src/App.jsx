@@ -1,25 +1,14 @@
 import React from 'react'
 
-import Navs from './Nav/Nav';
-import './App.css'
-
-function App() {
-  return (<div className="App">
-    <Navs/>
-  </div>)
-
-import { Footer } from './components/Footer'
+import Navs from './Nav/Nav'
 
 import './styles/variables.css'
 import './App.css'
 
-function App() {
+export const App = () => {
   return (
     <div className="App">
-      <Footer />
+      <Navs />
     </div>
   )
-
 }
-
-export default App
