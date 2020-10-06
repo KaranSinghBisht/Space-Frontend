@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-dark);
+    padding: 20px 5%;
+}
+
+.logo {
+    color: var(--brand);
+}
