@@ -1,0 +1,41 @@
+.container {
+  background-color: var(--primary-dark);
+  width: 10em;
+  height: 14em;
+  font-size: 1.5em;
+  color: white;
+  border-radius: 0.4em;
+  padding: 1em;
+  display: flex;
+  align-items: flex-end;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 1em -1em black;
+  position: relative;
+  overflow: hidden;
+  border: 3px solid rgba(101, 238, 83, 0.863);
+}
+
+.icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: white;
+}
+.icon:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.title {
+  position: absolute;
+  top: 0;
+  margin: 0;
+  font-size: 0.9em;
+  line-height: 1.1em;
+}
+.username {
+  font-size: 0.8em;
+  font-family: 'Open Sans';
+  margin-top: 0.4em;
+  line-height: 1.8em;
+}
