@@ -11,3 +11,5 @@ This repository focuses only on the front end part.
 [English Version](./CONTRIBUTING.md)
 
 [Spanish Version](./CONTRIBUTING.es.md)
+
+[Portuguese Version](./CONTRIBUTING.pt-br.md)
