@@ -1,11 +1,12 @@
 import React from 'react'
 import { Route, Switch } from 'react-router-dom'
 
-import './styles/variables.css'
-import './App.css'
 import { Home } from './pages/home'
 import { Forum } from './pages/forum'
 import { Explore } from './pages/explore'
+
+import './styles/variables.css'
+import './App.css'
 
 function App() {
   return (
