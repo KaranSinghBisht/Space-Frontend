@@ -4,9 +4,15 @@
 * You can simply contribute by using the Github website UI (User Interface).
 
 1. Fork this repository. This will create your own copy of this repo.
-2. Make whatever changes you want.
+2. Make whatever changes you want. 
 3. Then, make a pull request.
 4. Your pull request will be merged after review! Simple! Done ! 
+
+* **Setting up developer environment on your local machine for testing.**
+1. Clone your fork repository to your local machine.
+2. Make sure to `npm install` in project directory to install latest dependencies.
+3. Type `npm start` in terminal/shell to start project or go to [http://localhost:3000/](https://localhost:3000).
+4. Make changes, push them to your fork, and make a pull request.
 
 [You can also take a look in this amazing tutorial here](https://github.com/firstcontributions/first-contributions)
 
