@@ -1,0 +1,26 @@
+.container {
+    background-color: var(--primary-dark);
+    -webkit-box-shadow: 0 10px 6px -6px var(--brand);
+    -moz-box-shadow: 0 10px 6px -6px var(--brand);
+    box-shadow: 0 10px 6px -6px var(--brand);
+    width: 60%;
+    height: 40%;
+    color: var(--white);
+    border-color: var(--brand);
+    align-items: flex-start;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+    padding: 10px;
+    
+}
+
+.editIcon {
+    margin-left: auto;
+}
+
+.title {
+    font-size: large;
+    margin: 0px;
+}

@@ -12,10 +12,10 @@ export const Footer = () => {
       <RegisterNewsletter onSubmit={(e) => console.log(e)} />
       <IconGroup>
         <IconLink
-          icon="github"
-          href="https://github.com/KaranSinghBisht/Space-Frontend"
+          icon="github" 
+          href="https://github.com/KaranSinghBisht/Space-Frontend" type="fab"
         />
-        <IconLink icon="facebook" href="#" />
+        <IconLink icon="facebook" href="#" type="fab"/>
       </IconGroup>
     </footer>
   )
