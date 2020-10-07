@@ -11,7 +11,7 @@
 * **Setting up developer environment on your local machine for testing.**
 1. Clone your fork repository to your local machine.
 2. Make sure to `npm install` in project directory to install latest dependencies.
-3. Type `npm start` in terminal/shell to start project or go to [http://localhost:3000/](https://localhost:3000).
+3. Type `npm start` in terminal/shell to start project. For more commands visit [here.](https://github.com/KaranSinghBisht/Space-Frontend/blob/main/front-end/README.md)
 4. Make changes, push them to your fork, and make a pull request.
 
 [You can also take a look in this amazing tutorial here](https://github.com/firstcontributions/first-contributions)
