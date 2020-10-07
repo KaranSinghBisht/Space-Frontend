@@ -1,7 +1,7 @@
 .container {
   background-color: var(--primary-dark);
-  width: 10em;
-  height: 14em;
+  width: 60%;
+  height: 8em;
   font-size: 1.5em;
   color: white;
   border-radius: 0.4em;
