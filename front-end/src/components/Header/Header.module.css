@@ -11,6 +11,10 @@
     font-family: Comic Sans, Comic Sans MS, cursive;
 }
 
+.logo__img {
+    height: 50px;
+}
+
 .button:link,
 .button:visited {
     display: inline-block;
