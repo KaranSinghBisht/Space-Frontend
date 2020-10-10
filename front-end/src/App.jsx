@@ -4,13 +4,11 @@ import { Route, Switch } from 'react-router-dom'
 import { Home } from './pages/home'
 import { Forum } from './pages/forum'
 import { Explore } from './pages/explore'
-import { ContentCard } from './components/ContentCard';
 
 import './styles/variables.css'
 import './App.css'
 
 function App() {
-  var currentDate = new Date();
   return (
     <div className="App">
       <Switch>
@@ -18,7 +16,6 @@ function App() {
         <Route exact path="/forum" component={Forum} />
         <Route path="/" component={Home} />
       </Switch>
-      <ContentCard title="This Is Post Heading" content="@Username" date={currentDate}/>
     </div>
   )
 }
