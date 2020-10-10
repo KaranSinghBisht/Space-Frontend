@@ -16,7 +16,7 @@ export const Header = () => {
         <NavigationLink to="/explore">Explore</NavigationLink>
         <NavigationLink to="/forum">Forum</NavigationLink>
       </Navigation>
-      <a href="/">Sign In</a>
+      <a href="/" className={styles.button}>Sign In</a>
     </header>
   )
 }

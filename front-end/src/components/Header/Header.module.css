@@ -9,3 +9,43 @@
 .logo {
     color: var(--brand);
 }
+
+.button:link,
+.button:visited {
+    display: inline-block;
+    padding: 5px 15px;
+    text-decoration: none;
+    border-radius: 100px;
+    position: relative;
+    background-color: var(--white);
+    color: #777;
+}
+
+.button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+}
+
+.button:active {
+    transform: translateY(0);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+
+.button::after{
+    content: "";
+    display: inline-block;
+    border-radius: 100px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+    background-color: var(--white);
+}
+
+.button:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
